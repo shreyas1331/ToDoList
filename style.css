@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(images3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background: rgb(43,38,110);
+background: linear-gradient(90deg, rgb(8, 0, 119) 13%, rgba(156,170,17,0.7737219887955182) 100%); */
+}
+h1{
+    font-size: 3rem;
+    font-weight: 50;
+    margin: 1rem 0 3rem;
+    text-align: center;
+    color: white;
+    font-family: 'Hind', sans-serif;
+}
+.styling{
+    font-weight: 800;
+    color: rgba(240, 10, 37, 0.951);
+
+}
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input_div .input{
+    padding: 0.5rem 1rem;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: white;
+    width: 450px;
+    font-size: 1.15rem;
+    margin: 0.25rem;
+    border-radius: 25px;
+}
+.addButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: white;
+    font-size: large;
+    margin: 0.25rem;
+    background-color: rgba(240, 10, 37, 0.951);;
+    cursor: pointer;
+}
+.addButton:hover{
+    opacity: 0.5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+.item{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 4px solid white;
+}
+.item_input{
+    background: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 350px;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Hind',sans-serif;
+    background: none;
+    outline: none;
+    font-weight: bolder;
+    color: rgb(8, 2, 26);
+    border: none;
+    cursor: pointer;
+}
+.removeButton{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    font-family: 'Hind',sans-serif;
+    background: none;
+    outline: none;
+    color: rgb(255, 17, 0);
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: end;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 70px;
+
+}
